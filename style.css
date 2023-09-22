@@ -1,0 +1,122 @@
+/* Importar a fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos Globais */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+/* AppBar */
+.app-bar {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.app-bar-logo img {
+    max-height: 40px;
+}
+
+.app-bar-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.app-bar-title h1 {
+    margin: 0;
+}
+
+
+
+.subtitulo {
+    width: 420px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.subtitulo p {
+    margin: 0;
+}
+
+/* Cards */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 385px;
+    height: 427px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.h2-exemplo {
+    padding-left: 14%;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Estilos do Formulário */
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 14% 3% 14%;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos dos Campos */
+.campo {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container-centralizado {
+    width: 650px;
+    height: 500px;
+    background-color: #f0f0f0;
+    margin: 20px auto; /* Centraliza verticalmente e alinha ao centro horizontalmente */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
