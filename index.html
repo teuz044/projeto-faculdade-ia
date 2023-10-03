@@ -9,14 +9,16 @@
 </head>
 
 <body>
-    <!-- AppBar -->
-    <header class="app-bar">
+     <!-- AppBar -->
+     <header class="app-bar">
         <div class="app-bar-logo">
             <img src="ALMT.png" alt="Logo">
         </div>
         <div class="app-bar-title">
             <h1>Análise Exploratória de Dados</h1>
         </div>
+        <!-- Botão de Login -->
+        <button class="login-button">Login</button>
     </header>
 
     <!-- Subtítulo -->
@@ -32,13 +34,13 @@
         <div class="card">
             <h2>Entre 2010 e 2019, o Brasil registrou um aumento de 13,5% nas mortes (em números absolutos) no trânsito,
                 em relação à década anterior,</h2>
-            <img src="imagem1.jpg" alt="Imagem 1">
+            <img src="imgs/acidente1.png" alt="Imagem 1">
         </div>
 
         <!-- Card 2 -->
         <div class="card">
-            <h2>Álcool no trânsito mata 1,2 brasileiro por hora, revela pesquisa</h2>
-            <img src="imagem2.jpg" alt="Imagem 2">
+            <h2>Álcool no trânsito mata 1,2 brasileiro por hora, revela pesquisa. Álcool no trânsito mata 1,2 brasileiro por hora, revela pesquisa</h2>
+            <img src="imgs/acidente2.png" alt="Imagem 2">
         </div>
     </div>
 
@@ -71,6 +73,12 @@
             <input type="text" id="tipo_veiculo" name="tipo_veiculo">
         </div>
     </div>
+
+      <!-- Botão centralizado -->
+    <div class="botao-centralizado">
+        <button type="submit" onclick="validarFormulario()">Enviar</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

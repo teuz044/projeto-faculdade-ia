@@ -32,6 +32,15 @@ body {
 }
 
 
+.login-button {
+    color: #fff; /* Cor de fundo do botão de login */
+    background-color: #007bff; /* Cor do texto do botão de login */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .subtitulo {
     width: 420px;
@@ -68,6 +77,7 @@ body {
 
 .card h2 {
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .card img {
@@ -119,4 +129,91 @@ body {
     margin: 20px auto; /* Centraliza verticalmente e alinha ao centro horizontalmente */
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
+.botao-centralizado {
+    text-align: center;
+    margin-top: 20px; /* Espaço entre os campos e o botão */
+}
+
+.botao-centralizado button {
+    padding: 15px;  
+    margin-bottom: 3%;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button {
+    color: #fff; /* Cor de fundo do botão de login */
+    background-color: #007bff; /* Cor do texto do botão de login */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao-centralizado button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Media query para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    /* Redefina os estilos para dispositivos móveis aqui */
+    .app-bar {
+        padding: 10px; /* Reduza o padding */
+    }
+
+    .app-bar-logo img {
+        max-height: 30px; /* Reduza o tamanho do logotipo */
+    }
+
+    .subtitulo {
+        width: 90%; /* Ajuste a largura para ocupar mais espaço em dispositivos móveis */
+        padding: 10px; /* Reduza o padding */
+        margin-top: 15px; /* Aumente a margem superior */
+    }
+
+    .cards-container {
+        flex-direction: column; /* Empilhe os cards verticalmente em telas pequenas */
+    }
+
+    .card {
+        width: 90%; /* Ajuste a largura para ocupar mais espaço em dispositivos móveis */
+        margin: 10px auto; /* Centralize horizontalmente */
+        height: auto; /* Ajuste a altura automaticamente */
+    }
+
+    .formulario {
+        flex-direction: column; /* Empilhe os campos verticalmente em telas pequenas */
+        padding: 35px; /* Reduza o padding */
+        margin: 0; /* Remova a margem horizontal */
+    }
+
+    .login-button {
+        margin-top: 10px;
+        padding: 10px 35px;
+    }
+
+    .container-centralizado {
+        width: 350px;
+        height: 200px;
+        background-color: #f0f0f0;
+        margin: 20px auto; /* Centraliza verticalmente e alinha ao centro horizontalmente */
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+    }
+
+    .h2-exemplo {
+        padding-left: 14%;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .app-bar {
+        flex-direction: column;
+    }
 }
