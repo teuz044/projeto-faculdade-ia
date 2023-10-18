@@ -1,0 +1,55 @@
+body {
+    font-family: fantasy;
+    padding-top: 300px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+.form {
+    padding: 10px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    background-color: azure;
+}
+
+input {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:hover {
+    padding: 6px;
+    transition: 0.1s;
+}
+
+button {
+    margin: 5px;
+    margin-bottom: 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    width: 95%;
+    padding: 6px;
+    transition: 0.1s;
+}
+
+a {
+    color: black;
+    font-size: small;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+    transition: 0.5s;
+}
